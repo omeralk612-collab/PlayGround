@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#08080d">
+  <meta name="description" content="صدى — شبكة تواصل اجتماعي عربية حديثة ومجانية بالكامل. شارك اللحظات، الريلز، والرسائل بدون اشتراكات.">
+  <title>صدى — تواصل بلا حدود</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%238b5cf6'/%3E%3Cstop offset='1' stop-color='%23ec4899'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='18' fill='url(%23g)'/%3E%3Ctext x='32' y='45' font-size='36' font-family='Tahoma' font-weight='bold' fill='white' text-anchor='middle'%3E%D8%B5%3C/text%3E%3C/svg%3E">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="صدى">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#view">تخطَّ إلى المحتوى</a>
+  <div class="app">
+    <aside class="sidebar" id="sidebar" aria-label="التنقل الرئيسي"></aside>
+    <div class="main-col">
+      <header class="mobile-header" id="mobile-header"></header>
+      <main class="view" id="view" tabindex="-1"></main>
+    </div>
+    <aside class="rail" id="rail" aria-label="اقتراحات وترندات"></aside>
+  </div>
+  <nav class="bottom-nav" id="bottom-nav" aria-label="التنقل السفلي"></nav>
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

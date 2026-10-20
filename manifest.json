@@ -1,0 +1,28 @@
+{
+  "name": "صدى — تواصل بلا حدود",
+  "short_name": "صدى",
+  "description": "شبكة تواصل اجتماعي عربية حديثة ومجانية بالكامل: منشورات، قصص، ريلز، ورسائل.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#08080d",
+  "theme_color": "#08080d",
+  "categories": ["social", "communication"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
